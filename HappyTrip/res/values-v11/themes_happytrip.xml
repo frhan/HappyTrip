@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="happyTrip" parent="@style/_happyTrip" />
+
+    <style name="_happyTrip" parent="Theme.AppCompat.Light">
+        <item name="android:editTextBackground">@drawable/happytrip_edit_text_holo_light</item>
+        <item name="android:textColorHighlight">#994c8a37</item>
+        <item name="android:textSelectHandleLeft">@drawable/happytrip_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/happytrip_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/happytrip_text_select_handle_middle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewhappyTrip</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/happytrip_btn_check_holo_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/happytrip_btn_radio_holo_light</item>
+        <item name="android:buttonStyle">@style/ButtonhappyTrip</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonhappyTrip</item>
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerhappyTrip</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarhappyTrip</item>
+        <item name="android:seekBarStyle">@style/SeekBarhappyTrip</item>
+        <item name="android:ratingBarStyle">@style/RatingBarhappyTrip</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallhappyTrip</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/happytrip_list_selector_holo_light</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/happytrip_activated_background_holo_light</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/happytrip_fastscroll_thumb_holo</item>
+    </style>
+
+</resources>

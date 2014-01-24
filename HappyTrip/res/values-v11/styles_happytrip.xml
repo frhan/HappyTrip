@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewhappyTrip" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/happytrip_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/happytrip_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonhappyTrip" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/happytrip_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonhappyTrip" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/happytrip_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerhappyTrip" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/happytrip_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/happytrip_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarhappyTrip" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/happytrip_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/happytrip_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarhappyTrip" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/happytrip_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/happytrip_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/happytrip_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarhappyTrip" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/happytrip_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/happytrip_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallhappyTrip" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/happytrip_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/happytrip_ratingbar_small_holo_light</item>
+  </style>
+
+</resources>

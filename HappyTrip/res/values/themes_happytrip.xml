@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="happyTrip" parent="@style/_happyTrip" />
+
+    <style name="_happyTrip" parent="Theme.AppCompat.Light">
+        <item name="android:editTextStyle">@style/EditTexthappyTrip</item>
+        <item name="android:textColorHighlight">#994c8a37</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewhappyTrip</item>
+        <item name="android:checkboxStyle">@style/CheckBoxhappyTrip</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonhappyTrip</item>
+        <item name="android:buttonStyle">@style/ButtonhappyTrip</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonhappyTrip</item>
+        <item name="android:spinnerStyle">@style/SpinnerhappyTrip</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemhappyTrip</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarhappyTrip</item>
+        <item name="android:seekBarStyle">@style/SeekBarhappyTrip</item>
+        <item name="android:ratingBarStyle">@style/RatingBarhappyTrip</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallhappyTrip</item>
+        <item name="android:listViewStyle">@style/ListViewhappyTrip</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewhappyTrip.White</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItemhappyTrip</item>
+    </style>
+
+</resources>

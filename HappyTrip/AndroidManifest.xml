@@ -14,7 +14,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.farhan.happytrip.MainActivity"
+            android:name="com.farhan.happytrip.activities.MainActivity"
+            android:theme="@style/Theme.Happytrip"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

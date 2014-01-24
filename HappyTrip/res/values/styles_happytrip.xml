@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTexthappyTrip" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/happytrip_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="AutoCompleteTextViewhappyTrip" parent="android:Widget.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/happytrip_list_selector_holo_light</item>
+	  <item name="android:background">@drawable/happytrip_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="CheckBoxhappyTrip" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/happytrip_btn_check_holo_light</item>
+  </style>
+
+  <style name="RadioButtonhappyTrip" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/happytrip_btn_radio_holo_light</item>
+  </style>
+
+  <style name="ButtonhappyTrip" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/happytrip_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonhappyTrip" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/happytrip_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerhappyTrip" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/happytrip_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/happytrip_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerDropDownItemhappyTrip" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/happytrip_btn_radio_holo_light</item>
+  </style>
+  <style name="TabhappyTrip">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/happytrip_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTexthappyTrip">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarhappyTrip" parent="android:Widget.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/happytrip_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/happytrip_progress_indeterminate_horizontal_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="SeekBarhappyTrip" parent="android:Widget.SeekBar">
+      <item name="android:progressDrawable">@drawable/happytrip_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/happytrip_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:minHeight">13dip</item>
+      <item name="android:maxHeight">13dip</item>
+      <item name="android:thumb">@drawable/happytrip_scrubber_control_selector_holo_light</item>
+      <item name="android:thumbOffset">16dip</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+  </style>
+
+  <style name="RatingBarhappyTrip" parent="android:Widget.RatingBar">
+      <item name="android:progressDrawable">@drawable/happytrip_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/happytrip_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallhappyTrip">
+      <item name="android:progressDrawable">@drawable/happytrip_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/happytrip_ratingbar_small_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="ListViewhappyTrip" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/happytrip_list_selector_holo_light</item>
+  </style>
+
+  <style name="ListViewhappyTrip.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/happytrip_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemhappyTrip" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="Theme.Happytrip" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_happytrip</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Happytrip</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Happytrip</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Happytrip</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Happytrip</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Happytrip</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_happytrip</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_happytrip</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Happytrip</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Happytrip" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_happytrip</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_happytrip</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_happytrip</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Happytrip</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Happytrip" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_happytrip</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Happytrip</item>
+    </style>
+
+    <style name="PopupMenu.Happytrip" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_happytrip</item>	
+    </style>
+
+    <style name="DropDownListView.Happytrip" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_happytrip</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Happytrip" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_happytrip</item>
+    </style>
+
+    <style name="DropDownNav.Happytrip" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_happytrip</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_happytrip</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_happytrip</item>
+    </style>
+    
+    <style name="ProgressBar.Happytrip" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_happytrip</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Happytrip" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_happytrip</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Happytrip.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Happytrip</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Happytrip</item>
+    </style>
+
+</resources>

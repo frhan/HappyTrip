@@ -1,4 +1,6 @@
-package com.farhan.happytrip;
+package com.farhan.happytrip.activities;
+
+import com.farhan.happytrip.R;
 
 import android.os.Bundle;
 import android.app.Activity;
