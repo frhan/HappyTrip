@@ -1,4 +1,4 @@
-package com.farhan.happytrip.adapter;
+package me.farhan.happytrip.adapter;
 
 import java.util.List;
 
