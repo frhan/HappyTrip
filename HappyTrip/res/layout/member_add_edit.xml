@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="@string/member_name"
+        android:textColor="@color/happytrip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_5"
+        android:background="@drawable/happytrip_edit_text_holo_light"
+        android:inputType="text"
+        android:textSize="@dimen/text_size_medium" >
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="@string/member_mobile"
+        android:textColor="@color/happytrip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_5"
+        android:background="@drawable/happytrip_edit_text_holo_light"
+        android:inputType="text"
+        android:textSize="@dimen/text_size_medium" >
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="@string/member_email"
+        android:textColor="@color/happytrip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_5"
+        android:background="@drawable/happytrip_edit_text_holo_light"
+        android:inputType="text"
+        android:textSize="@dimen/text_size_medium" >
+    </EditText>
+
+</LinearLayout>
