@@ -23,6 +23,7 @@
         android:background="@color/happytrip_color" />
 
     <EditText
+        android:id="@+id/et_member_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp_10"
@@ -51,12 +52,13 @@
         android:background="@color/happytrip_color" />
 
     <EditText
+        android:id="@+id/et_member_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp_10"
         android:layout_marginRight="@dimen/dp_5"
         android:background="@drawable/happytrip_edit_text_holo_light"
-        android:inputType="text"
+        android:inputType="phone"
         android:textSize="@dimen/text_size_medium" >
     </EditText>
 
@@ -79,12 +81,13 @@
         android:background="@color/happytrip_color" />
 
     <EditText
+        android:id="@+id/et_member_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp_10"
         android:layout_marginRight="@dimen/dp_5"
         android:background="@drawable/happytrip_edit_text_holo_light"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:textSize="@dimen/text_size_medium" >
     </EditText>
 

@@ -11,6 +11,7 @@
         android:orientation="vertical" >
 
         <TextView
+            android:id="@+id/tv_member_row_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dp_8"
@@ -20,6 +21,7 @@
         </TextView>
 
         <TextView
+            android:id="@+id/tv_member_row_mobile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dp_10"
@@ -29,12 +31,13 @@
     </LinearLayout>
 
     <ImageButton
+        android:id="@+id/btn_member_row_options"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:background="@null"
         android:layout_marginRight="@dimen/dp_3"
+        android:background="@null"
         android:contentDescription="@string/app_name"
         android:src="@drawable/ic_action_overflow" />
 

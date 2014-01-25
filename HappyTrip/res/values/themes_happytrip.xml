@@ -24,4 +24,8 @@
         <item name="android:spinnerItemStyle">@style/SpinnerItemhappyTrip</item>
     </style>
 
+    <style name="Theme.MyAppTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
 </resources>
