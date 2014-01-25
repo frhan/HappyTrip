@@ -1,4 +1,4 @@
-package com.farhan.happytrip.activities;
+package me.farhan.happytrip.activities;
 
 import android.app.ActionBar;
 import android.content.Context;

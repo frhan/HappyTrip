@@ -2,8 +2,6 @@ package me.farhan.happytrip.adapter;
 
 import java.util.List;
 
-import com.farhan.happytrip.R;
-
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import me.farhan.db.happytrip.Expenditure;
+import me.farhan.happytrip.R;
 
 public class ExpenditureAdapter extends MainAdapter<Expenditure>  implements OnClickListener
 {

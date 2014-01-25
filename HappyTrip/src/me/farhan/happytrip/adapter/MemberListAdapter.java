@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.farhan.happytrip.R;
+import me.farhan.happytrip.R;
 
 public class MemberListAdapter extends MainAdapter<Member> implements OnClickListener
 {
