@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="@string/trip_name"
+        android:textColor="@color/happytrip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_5"
+        android:background="@drawable/happytrip_edit_text_holo_light"
+        android:inputType="text"
+        android:textSize="@dimen/text_size_medium" >
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:text="@string/place"
+        android:textColor="@color/happytrip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_5"
+        android:background="@drawable/happytrip_edit_text_holo_light"
+        android:inputType="text"
+        android:textSize="@dimen/text_size_medium" >
+    </EditText>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/expected_cost"
+        android:textColor="@color/happytrip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_5"
+        android:background="@drawable/happytrip_edit_text_holo_light"
+        android:inputType="number"
+        android:textSize="@dimen/text_size_medium" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/start_date"
+            android:textColor="@color/happytrip_color"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:layout_weight="1"
+            android:text="@string/currency"
+            android:textColor="@color/happytrip_color"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1"
+            android:background="@drawable/happytrip_spinner_default_holo_light"
+            android:text="25-12-2013"
+            android:textColor="@color/happytrip_color"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_5"
+            android:layout_weight="1"
+            android:background="@drawable/happytrip_edit_text_holo_light"
+            android:inputType="text"
+            android:textSize="@dimen/text_size_medium" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/members"
+        android:textColor="@color/happytrip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+    
+    
+
+</LinearLayout>

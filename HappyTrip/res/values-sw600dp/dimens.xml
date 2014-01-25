@@ -5,4 +5,33 @@
          screen margins) for sw600dp devices (e.g. 7" tablets) here.
     -->
 
+    <dimen name="padding_medium">5dp</dimen>
+    <dimen name="padding_small">3dp</dimen>
+    <dimen name="room_grid_item_size">160dp</dimen>
+    <dimen name="text_size_big">32sp</dimen>
+    <dimen name="text_size_medium">26sp</dimen>
+    <dimen name="text_size_small">20sp</dimen>
+    <dimen name="text_size_mini">16sp</dimen>
+    <dimen name="paddingTop_Medium">12dp</dimen>
+    <dimen name="paddingTop_Large">27dp</dimen>
+    <dimen name="dp_1">1.5dp</dimen>
+    <dimen name="dp_2">3dp</dimen>
+    <dimen name="dp_3">5dp</dimen>
+    <dimen name="dp_4">6dp</dimen>
+    <dimen name="dp_5">7dp</dimen>
+    <dimen name="dp_6">9dp</dimen>
+    <dimen name="dp_7">10dp</dimen>
+    <dimen name="dp_8">12dp</dimen>
+    <dimen name="dp_9">13dp</dimen>
+    <dimen name="dp_10">15dp</dimen>
+    <dimen name="dp_12">18dp</dimen>
+    <dimen name="dp_15">21dp</dimen>
+    <dimen name="dp_17">15dp</dimen>
+    <dimen name="dp_20">30dp</dimen>
+    <dimen name="dp_22">33dp</dimen>
+    <dimen name="dp_25">37dp</dimen>
+    <dimen name="dp_40">55dp</dimen>
+    <dimen name="text_size_room_button">26sp</dimen>
+    <dimen name="text_size_dependent">20sp</dimen>
+
 </resources>
