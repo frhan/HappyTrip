@@ -116,8 +116,5 @@ public class DatabaseManager {
 			db.execSQL("DROP TABLE IF EXISTS"+DbTable.TABLE_TRIP);
 			onCreate(db);
 		}
-
 	}
-
-
 }
