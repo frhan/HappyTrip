@@ -53,44 +53,43 @@ public class DatabaseManager {
 		}
 	}
 
-
-	public long insertCaller(final Caller caller)
-	{
-		ContentValues values = new ContentValues();
-		values.put("name", caller.name);
-		values.put("date_of_birth",caller.birthDay);
-		values.put("phone1", caller.phone1);
-		values.put("phone2", caller.phone2);
-		values.put("relationship", caller.relationship);
-
-		long callerId = db.insert(DbTable.TABLE_TRIP, null, values);
-		return callerId;
-	}
-
-	public List<Caller> getAllCallers()
-	{
-		List<Caller> listCallers = new ArrayList<Caller>();
-		String selectQuery = "SELECT  * FROM " + DbTable.TABLE_TRIP;
-		Log.i(TAG, selectQuery);		 
-
-		Cursor c = db.rawQuery(selectQuery, null);
-		if (c.moveToFirst()) {
-			do {
-				Caller caller = new Caller();
-				caller.id = c.getInt(c.getColumnIndex("_id"));
-				caller.name = c.getString(c.getColumnIndex("name"));
-				caller.relationship = c.getString(c.getColumnIndex("relationship"));
-				caller.phone1 = c.getString(c.getColumnIndex("phone1"));
-				caller.phone2 = c.getString(c.getColumnIndex("phone2"));
-
-				// adding to todo list
-				listCallers.add(caller);
-			} while (c.moveToNext());
-		}
-		c.close();
-
-		return listCallers;
-	}
+	//	public long insertCaller(final Caller caller)
+	//	{
+	//		ContentValues values = new ContentValues();
+	//		values.put("name", caller.name);
+	//		values.put("date_of_birth",caller.birthDay);
+	//		values.put("phone1", caller.phone1);
+	//		values.put("phone2", caller.phone2);
+	//		values.put("relationship", caller.relationship);
+	//
+	//		long callerId = db.insert(DbTable.TABLE_TRIP, null, values);
+	//		return callerId;
+	//	}
+	//
+	//	public List<Caller> getAllCallers()
+	//	{
+	//		List<Caller> listCallers = new ArrayList<Caller>();
+	//		String selectQuery = "SELECT  * FROM " + DbTable.TABLE_TRIP;
+	//		Log.i(TAG, selectQuery);		 
+	//
+	//		Cursor c = db.rawQuery(selectQuery, null);
+	//		if (c.moveToFirst()) {
+	//			do {
+	//				Caller caller = new Caller();
+	//				caller.id = c.getInt(c.getColumnIndex("_id"));
+	//				caller.name = c.getString(c.getColumnIndex("name"));
+	//				caller.relationship = c.getString(c.getColumnIndex("relationship"));
+	//				caller.phone1 = c.getString(c.getColumnIndex("phone1"));
+	//				caller.phone2 = c.getString(c.getColumnIndex("phone2"));
+	//
+	//				// adding to todo list
+	//				listCallers.add(caller);
+	//			} while (c.moveToNext());
+	//		}
+	//		c.close();
+	//
+	//		return listCallers;
+	//	}
 
 
 
@@ -105,7 +104,17 @@ public class DatabaseManager {
 		@Override
 		public void onCreate(SQLiteDatabase db) 
 		{
+
 			db.execSQL(DbTable.CREATE_TABLE_TRIP);
+		}
+		@Override
+		public void onOpen(SQLiteDatabase db) {
+			super.onOpen(db);
+
+			if (!db.isReadOnly()) {
+				// Enable foreign key constraints
+				db.execSQL("PRAGMA foreign_keys=ON;");
+			}
 		}
 
 		@Override
