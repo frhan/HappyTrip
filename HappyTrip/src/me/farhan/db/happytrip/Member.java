@@ -1,6 +1,6 @@
 package me.farhan.db.happytrip;
 
-public class Member {
+public class Member implements ISpinner{
 
 	private final int id;
 	private String name;
@@ -36,6 +36,16 @@ public class Member {
 	public int getId() {
 		return id;
 	}
-	
+
+	@Override
+	public void setTitle(String title) 
+	{
+		this.name = title;
+	}
+
+	@Override
+	public String getTitle() {
+		return this.name;
+	}	
 	
 }

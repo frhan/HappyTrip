@@ -10,13 +10,12 @@
     <string name="members">Members</string>
     <string name="currency">Currency</string>
     <string name="expected_cost">Expected Expenditure</string>
-
-    
     <string name="member_name">Member Name</string>
     <string name="member_mobile">Phone Number</string>
     <string name="member_email">Email</string>
-    
     <string name="action_save">Save</string>
-     <string name="action_update">Update</string>
-    
+    <string name="action_update">Update</string>
+    <string name="payer">Payer</string>
+    <string name="expense">Expense</string>
+
 </resources>
