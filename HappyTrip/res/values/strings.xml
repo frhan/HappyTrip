@@ -15,7 +15,10 @@
     <string name="member_email">Email</string>
     <string name="action_save">Save</string>
     <string name="action_update">Update</string>
-    <string name="payer">Payer</string>
-    <string name="expense">Expense</string>
+    <string name="payer">Payer*</string>
+    <string name="expense">Expense*</string>
+    <string name="when">When</string>
+    <string name="reason">Reason</string>
+     <string name="where">Where</string>
 
 </resources>

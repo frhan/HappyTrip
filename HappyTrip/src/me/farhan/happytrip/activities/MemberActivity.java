@@ -13,7 +13,7 @@ public class MemberActivity extends MainActivity
 	protected void onCreate(Bundle savedInstanceState) 
 	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.member_add_edit);
+		setContentView(R.layout.cost_add_edit);
 		init();
 	}
 	

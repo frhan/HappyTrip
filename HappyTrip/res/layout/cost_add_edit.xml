@@ -46,22 +46,107 @@
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:background="@drawable/happytrip_edit_text_holo_light"
-            android:gravity="bottom"
             android:inputType="number"
             android:textSize="@dimen/text_size_medium" />
 
         <Spinner
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="@dimen/padding_medium"
             android:layout_weight="1"
             android:background="@drawable/happytrip_spinner_default_holo_light"
-            android:gravity="bottom"
             android:textSize="@dimen/text_size_medium" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/when"
+            android:textColor="@color/happytrip_color"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:layout_weight="1"
+            android:text="@string/where"
+            android:textColor="@color/happytrip_color"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/happytrip_edit_text_holo_light"
+            android:gravity="bottom"
+            android:inputType="text"
+            android:textSize="@dimen/text_size_medium" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/happytrip_edit_text_holo_light"
+            android:gravity="bottom"
+            android:inputType="text"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/reason"
+        android:textColor="@color/happytrip_color"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginRight="@dimen/dp_3"
+        android:background="@color/happytrip_color" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/happytrip_edit_text_holo_light"
+        android:gravity="bottom"
+        android:inputType="text"
+        android:textSize="@dimen/text_size_medium" />
 
 </LinearLayout>
